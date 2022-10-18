@@ -31,7 +31,10 @@ There are 6 total gameplay modes:
 My Work
 
 SYNCH/RUSH was a solo project. As such, all of the work on the game was done by myself, with the exception of certain sounds and sprite works.
+
 Gameplay
+
+![alt text](https://yoeripvdb.github.io/YoeriPvdB_Portfolio/assets/images/smashmode-gameplay.gif)
 
 I designed and implemented all gameplay aspects. I developed the 6 core game mode, implementing the levels, player character, power ups, pause, win/loss states, and level end screen.
 Levels
@@ -40,9 +43,13 @@ The levels were developed by creating multiple level "chunks" prefabs. These pre
 Controls
 
 The controls are fully rebindable, including gamepad support. This was enabled with Unity's new Input System.
+
 In-game Shop
 
 I added an in-game shop and point system where players could purchase cosmetic skins for Zuum. Currently there are 4 skins including the base one. The player's choices are monitored locally through PlayerPrefs.
+
+![alt text](https://yoeripvdb.github.io/YoeriPvdB_Portfolio/assets/images/synchrush-shop.gif)
+
 Visuals
 
 I designed and created Zuum, the player character with a combination of Adobe Photoshop and Illustrator. The cosmetic skins and menu items were also created this way. The levels were created using Unity sprite assets. I used the Universal Render Pipeline together with Shader Graphs to achieve the neon glow on the levels, as well as the shockwave blast.
