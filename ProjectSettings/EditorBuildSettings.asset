@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Menu Scene.unity
+    guid: c76e53773c879684181761fe331ae5dc
+  - enabled: 1
+    path: Assets/Scenes/BlastModeScene.unity
+    guid: e92a84219863b9942a40644ad05d8258
+  - enabled: 0
+    path: Assets/Scenes/Game Scene.unity
+    guid: 65238a45085ed3842bf524f08be74c64
+  - enabled: 1
+    path: Assets/Scenes/TandemModeScene.unity
+    guid: 7fd7f841f7da09649bfc00f2ffef4972
+  - enabled: 0
+    path: Assets/Scenes/Test Scene 2.unity
+    guid: 5af08566e429e524d9270d9a41ac2245
+  - enabled: 1
+    path: Assets/Scenes/NormalModeScene.unity
+    guid: ca59c67b26ec7a34ab63aa823c5f5302
+  - enabled: 1
+    path: Assets/Scenes/EndlessModeScene.unity
+    guid: 8154d3e18172d864cb7b4c9d874f6681
+  - enabled: 1
+    path: Assets/Scenes/Controls Scene.unity
+    guid: fde457a35ca018a48814434340ed8048
+  - enabled: 1
+    path: Assets/Scenes/Cosmetics Scene.unity
+    guid: 6afda5847f11f064695da00292c5fcd1
+  - enabled: 1
+    path: Assets/Scenes/VersusModeScene.unity
+    guid: d576bfc19d4c1734f83b5de178d15476
+  - enabled: 1
+    path: Assets/Scenes/DiscoModeScene.unity
+    guid: 0b0771659e2da874f8789487ee45cef7
+  - enabled: 1
+    path: Assets/Scenes/VS Controls Scene 1.unity
+    guid: 65a26dd52fc44c04d8acf79b83f17add
+  m_configObjects: {}
