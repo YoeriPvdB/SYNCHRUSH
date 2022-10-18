@@ -221,8 +221,13 @@ public class SceneManagerScript : MonoBehaviour
     public void ButtonSelect(int currentButton)
     {
         // ogPos = Buttons[currentButton].transform.position;
-        buttonMoveStatus[currentButton] = true;
-        Buttons[currentButton].transform.DOMoveX(ogPos[currentButton].x + 50f, 0.3f);
+        
+        if(buttonMoveStatus[currentButton] == false)
+        {
+            Buttons[currentButton].transform.DOMoveX(ogPos[currentButton].x + 50f, 0.3f);
+            buttonMoveStatus[currentButton] = true;
+        }
+       
         _audioScript.PlayMenuAudio(0);
        
     }

@@ -128,20 +128,20 @@ public class AudioScript : MonoBehaviour
 
     public void SmallCrashAudio()
     {
-        crashSound1.Play();
+        //crashSound1.Play();
         return;
     }
 
     public void LargeCrashAudio()
     {
-        crashSound2.Play();
+        //crashSound2.Play();
 
         return;
     }
 
     public void JumpAudio()
     {
-        jumpSound.Play();
+        //jumpSound.Play();
 
         return;
     }
@@ -152,19 +152,19 @@ public class AudioScript : MonoBehaviour
         /*audioSource.clip = blastSound;
         audioSource.Play();*/
         
-        blastSound.Play();
+        //blastSound.Play();
 
         return;
     }
 
     public void T1BlastAudio()
     {
-        t1blast.Play();
+        //t1blast.Play();
     }
 
     public void T2BlastAudio()
     {
-        t2blast.Play();
+        //t2blast.Play();
     }
 
     /*public IEnumerator BlastAudio()

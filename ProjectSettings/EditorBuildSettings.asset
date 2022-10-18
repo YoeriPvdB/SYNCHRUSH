@@ -44,4 +44,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VS Controls Scene 1.unity
     guid: 65a26dd52fc44c04d8acf79b83f17add
+  - enabled: 1
+    path: Assets/Scenes/LobbyScene.unity
+    guid: 02083fc2c8bbf4c47bcdb34742362ba7
+  - enabled: 1
+    path: Assets/Scenes/OnlineGameScene.unity
+    guid: 9bc8baecf529f064f9e8b81a0404f660
   m_configObjects: {}

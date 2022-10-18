@@ -75,7 +75,7 @@ public class BlastScript : MonoBehaviour
     {
 
         if(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "BlastModeScene" || UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "NormalModeScene"
-            || UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "EndlessModeScene")
+            || UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "EndlessModeScene" || UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex == 11)
         {
             if ((_switchScript.inTandem))
             {

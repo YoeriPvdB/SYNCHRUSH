@@ -74,7 +74,7 @@ public class Obstacles : MonoBehaviour
 
             if (_powerUp.powerUps != PowerUp.PowerUps.Speed)
             {
-                if(SceneManager.GetActiveScene().name == "EndlessModeScene")
+                if(SceneManager.GetActiveScene().name == "EndlessModeScene" || SceneManager.GetActiveScene().buildIndex == 11)
                 {
                     EndlessGameOver();
                 } else
@@ -103,7 +103,7 @@ public class Obstacles : MonoBehaviour
 
             if (_powerUp.powerUps != PowerUp.PowerUps.Speed)
             {
-                if (SceneManager.GetActiveScene().name == "EndlessModeScene")
+                if (SceneManager.GetActiveScene().name == "EndlessModeScene" || SceneManager.GetActiveScene().buildIndex == 11)
                 {
                     EndlessGameOver();
                 }
@@ -153,7 +153,7 @@ public class Obstacles : MonoBehaviour
                 _moveScript.isJumping = true;
                 _shakeScript.StartCoroutine("ShakeIt", .4f);
 
-            if (SceneManager.GetActiveScene().name == "EndlessModeScene")
+            if (SceneManager.GetActiveScene().name == "EndlessModeScene" || SceneManager.GetActiveScene().buildIndex == 11)
             {
                 EndlessGameOver();
             }
@@ -176,7 +176,7 @@ public class Obstacles : MonoBehaviour
 
     void EndlessGameOver()
     {
-        if (SceneManager.GetActiveScene().name == "EndlessModeScene")
+        if (SceneManager.GetActiveScene().name == "EndlessModeScene" || SceneManager.GetActiveScene().buildIndex == 11)
         {
             lifeCount --;
             return;

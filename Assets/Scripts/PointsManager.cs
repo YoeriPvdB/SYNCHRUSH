@@ -20,7 +20,7 @@ public class PointsManager : MonoBehaviour
         _uiScript = GameObject.Find("UI Handler").GetComponent<UIScript>();
         totalPoints = 0;
 
-        if (SceneManager.GetActiveScene().name == "EndlessModeScene")
+        if (SceneManager.GetActiveScene().name == "EndlessModeScene" || SceneManager.GetActiveScene().buildIndex == 11)
         {
             checkpointCount = 0;
             bonusCount = 100;

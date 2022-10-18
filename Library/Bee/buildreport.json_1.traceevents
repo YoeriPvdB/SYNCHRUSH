@@ -1,0 +1,781 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1666112544402940, "dur": 2989642, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666112544403188, "dur": 4026, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666112544407215, "dur": 46527, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666112544453744, "dur": 949645, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666112545403391, "dur": 1987293, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666112547390685, "dur": 1896, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666112547395384, "dur": 14, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1666112545109520, "dur": 270276, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1666112545110633, "dur": 68084, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1666112545344987, "dur": 8712, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1666112545353703, "dur": 26055, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1666112545356417, "dur": 17438, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1666112545386229, "dur": 1916, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1666112545385213, "dur": 2991, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666112547395723, "dur": 728, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1666112545476624, "dur":3853, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666112545480491, "dur":100, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1666112545480670, "dur":34, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1666112545480704, "dur":405, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1666112545481224, "dur":2214, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666112545483439, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666112547359292, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666112547359298, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666112547359310, "dur":98, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666112547359408, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666112547359417, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666112547359419, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666112547359424, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666112547359426, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666112547359431, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666112547359446, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666112547359471, "dur":8301, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1666112545483158, "dur":296, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112545483454, "dur":20459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112545503924, "dur":26958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1666112545531029, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112545533683, "dur":6054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1666112545539929, "dur":12494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1666112545552428, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112545552438, "dur":2642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1666112545555290, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1666112545555615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112545556642, "dur":3752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1666112545560873, "dur":8670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1666112545569548, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112545569559, "dur":3931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1666112545573687, "dur":85083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1666112545658775, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112545658785, "dur":24654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1666112545683640, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1666112545683947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112545683955, "dur":15010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1666112545699165, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1666112545699462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112545699470, "dur":9916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1666112545709641, "dur":39057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112545748703, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112545749306, "dur":5285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112545754783, "dur":115084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112545869874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112545891669, "dur":255045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546146921, "dur":1244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH.exe" }}
+,{ "pid":12345, "tid":1, "ts":1666112546148170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546148176, "dur":7034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH.exe" }}
+,{ "pid":12345, "tid":1, "ts":1666112546155364, "dur":137656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546293026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546293034, "dur":94966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546388173, "dur":1377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546389556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546389566, "dur":21079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546412454, "dur":715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546413174, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546413379, "dur":24428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546437977, "dur":646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546438627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546438938, "dur":2891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546442001, "dur":20555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546462562, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546462571, "dur":2822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546465576, "dur":14120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546479702, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546479711, "dur":2703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546482587, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546483138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546483145, "dur":2448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546485762, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546486191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546486198, "dur":25227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546511602, "dur":516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546512121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546512126, "dur":4157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546516395, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546516805, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546516810, "dur":2972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546519955, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546527048, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546527059, "dur":4813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546532068, "dur":436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546532508, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546532514, "dur":2462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546535152, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546535588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546535595, "dur":6671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546542432, "dur":14153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546556591, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546556603, "dur":9121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546565893, "dur":562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546566458, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546566462, "dur":3187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546569817, "dur":2353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546572174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546572379, "dur":3736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546576279, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546576683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546576689, "dur":7887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546584737, "dur":606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546585346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546585433, "dur":2637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546588237, "dur":485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546588725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546588731, "dur":3580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546592495, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546592999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546593005, "dur":5540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546598715, "dur":1075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546599794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546599801, "dur":3734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546603650, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546604094, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546604099, "dur":2508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546606771, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546607150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546607155, "dur":2535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546609857, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546610257, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546610261, "dur":4831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546615261, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546615683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546615687, "dur":2779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546618635, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546619025, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546619029, "dur":2403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546621605, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546621998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546622003, "dur":2864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546625029, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546625421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546625426, "dur":13465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546639057, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546639434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546639441, "dur":2466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546642086, "dur":1310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546643400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546643408, "dur":4913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546648489, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546648873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546648881, "dur":8768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546657827, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546658236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546658243, "dur":24612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546683030, "dur":1712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546686478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546686488, "dur":3277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546689938, "dur":2107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546692049, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546692062, "dur":7472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546699759, "dur":779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Burst.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546700542, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546700548, "dur":2664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Burst.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546703374, "dur":47236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546750615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546750624, "dur":6911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546757698, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546758353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546758360, "dur":2952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546761507, "dur":5739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546767251, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546767260, "dur":72180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546839602, "dur":2422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546842030, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546842039, "dur":65496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546907699, "dur":739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546908441, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546908447, "dur":2627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546911249, "dur":505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546911758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546911766, "dur":3258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546915194, "dur":7304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546922501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546922506, "dur":9706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546932380, "dur":627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/FMODUnity.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546933010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546933017, "dur":19251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/FMODUnity.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546952430, "dur":659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546953092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546953099, "dur":2927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1666112546956187, "dur":1722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112546957913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112546957921, "dur":130867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112547088999, "dur":16585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Plugins/x86/fmodstudioL.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112547105588, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112547105597, "dur":7836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Plugins/x86/fmodstudioL.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666112547113608, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666112547113814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112547113820, "dur":3794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666112547117778, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666112547118071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112547118077, "dur":166429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666112547284683, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1666112547284934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112547284939, "dur":3617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1666112547288716, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level11" }}
+,{ "pid":12345, "tid":1, "ts":1666112547288901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112547288916, "dur":2733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level11" }}
+,{ "pid":12345, "tid":1, "ts":1666112547291810, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1666112547291964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112547291976, "dur":2619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1666112547294762, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1666112547294917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112547294923, "dur":4908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1666112547299993, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666112547300393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666112547300403, "dur":34743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666112547335309, "dur":23795, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112545483071, "dur":374, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112545483447, "dur":20464, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112545503923, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1666112545503932, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112545507864, "dur":1239, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1666112545509108, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1666112545509296, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112545509749, "dur":14214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1666112545523964, "dur":14038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1666112545538007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112545538016, "dur":2615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1666112545540840, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1666112545541121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112545541408, "dur":6232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1666112545547841, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1666112545548131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112545548140, "dur":273809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1666112545822152, "dur":277892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":2, "ts":1666112546100049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546100056, "dur":55020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":2, "ts":1666112546155255, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1666112546155483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546156160, "dur":143069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1666112546299369, "dur":489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546299862, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546299868, "dur":2982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546303027, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546303443, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546303449, "dur":3492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546307062, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546307437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546307444, "dur":2643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546310264, "dur":512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546310779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546310786, "dur":6718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546317711, "dur":13330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546331047, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546331056, "dur":2648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546333872, "dur":496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546334371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546334378, "dur":2545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546337087, "dur":12878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546349969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546349975, "dur":11786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546362001, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546362471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546362478, "dur":3266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546365911, "dur":470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546366384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546366392, "dur":7707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546374267, "dur":9113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546383386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546383395, "dur":47977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546431568, "dur":505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546432078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546432086, "dur":38196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546470452, "dur":22233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546508576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546508588, "dur":9464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546518217, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546518610, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546518626, "dur":8427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546527276, "dur":832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546528113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546528121, "dur":3767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546532071, "dur":14189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546546266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546546275, "dur":2602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546549042, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546549547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546549554, "dur":3249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546552988, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546553403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546553410, "dur":13565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546567165, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546567583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546567589, "dur":2917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546570696, "dur":474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546571173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546571181, "dur":2721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546574071, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546574492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546574500, "dur":2404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546577068, "dur":731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546577804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546577811, "dur":2886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546580872, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546581343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546581356, "dur":2797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546584321, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546584738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546584746, "dur":2813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546587722, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546588164, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546588169, "dur":3404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546591742, "dur":800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.VectorGraphics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546592545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546592551, "dur":4834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.VectorGraphics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546597735, "dur":869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546598607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546598612, "dur":3856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546602673, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546603038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546603045, "dur":2917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546606141, "dur":487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546606630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546606635, "dur":2688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546609432, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546609824, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546609828, "dur":4778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546614815, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546615229, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546615235, "dur":2787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546618185, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546618566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546618573, "dur":2613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546621368, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546621748, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546621753, "dur":2535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546624454, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546624797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546624804, "dur":38943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546663914, "dur":683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipelines.Core.Runtime.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546664601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546669570, "dur":2768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipelines.Core.Runtime.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546672505, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546672909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546672916, "dur":2595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546675685, "dur":1095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Mathematics.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546676784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546676792, "dur":6428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Mathematics.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546683425, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.InternalAPIEngineBridge.003.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546683827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546683834, "dur":52380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.InternalAPIEngineBridge.003.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546736396, "dur":117665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546854066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546854074, "dur":3145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546857381, "dur":542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546857926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546857933, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546860426, "dur":964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546861394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546861402, "dur":4437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546866005, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546866449, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546866455, "dur":2412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546869033, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546869509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546869517, "dur":2533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546872230, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546872700, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546872706, "dur":2427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546875378, "dur":552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546875933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546875940, "dur":5451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546881557, "dur":482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546882042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546882049, "dur":2747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546884978, "dur":664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546885646, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546885656, "dur":2637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546888467, "dur":480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546888951, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546888958, "dur":2358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546891493, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546891897, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546891903, "dur":16538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1666112546908601, "dur":1336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546909942, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112546909950, "dur":78245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112546988362, "dur":19488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Plugins/x86/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112547007855, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112547056595, "dur":45246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Plugins/x86/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666112547104348, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets8.resource" }}
+,{ "pid":12345, "tid":2, "ts":1666112547104523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112547104528, "dur":4159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets8.resource" }}
+,{ "pid":12345, "tid":2, "ts":1666112547108958, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666112547109144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112547109154, "dur":4433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666112547113721, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666112547113892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112547113897, "dur":3659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666112547117719, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":2, "ts":1666112547118069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112547118077, "dur":2372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":2, "ts":1666112547120620, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666112547120786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112547120793, "dur":2459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666112547123416, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666112547123581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112547123588, "dur":2870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666112547126623, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666112547126786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112547126794, "dur":4976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666112547131942, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666112547132105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112547132112, "dur":26786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666112547159367, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1666112547159559, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112547159564, "dur":160285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1666112547320024, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666112547326324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666112547326335, "dur":5957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666112547332461, "dur":26836, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112545483184, "dur":272, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112545483457, "dur":20457, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112545503924, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1666112545504261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112545510227, "dur":14575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1666112545525048, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1666112545525375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112545525383, "dur":281562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1666112545807166, "dur":564609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546371780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546371788, "dur":287084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546659046, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546659348, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546659355, "dur":27329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546686880, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.InternalAPIEngineBridge.003.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546687277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546687284, "dur":2158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.InternalAPIEngineBridge.003.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546689618, "dur":1126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.InputSystem.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1666112546690747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546690755, "dur":8462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.InputSystem.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1666112546699406, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546699784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546699793, "dur":2393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546702352, "dur":40946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546743303, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546743312, "dur":31115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546774551, "dur":886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546775441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546775448, "dur":4369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546779985, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546780377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546780386, "dur":3396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546784030, "dur":586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546784619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546784626, "dur":3372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546788162, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546788588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546788596, "dur":2574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546791339, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546791739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546791746, "dur":6735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546798644, "dur":4483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546803132, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546803141, "dur":4723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546808026, "dur":4085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546812116, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546812129, "dur":77006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546889296, "dur":575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546889874, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546889879, "dur":2507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546892547, "dur":405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546892954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546892959, "dur":4537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546897660, "dur":587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1666112546898250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546898257, "dur":2446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1666112546900892, "dur":858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546901754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546901762, "dur":19744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546921669, "dur":721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546922393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546922401, "dur":2806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546925375, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/FMODUnityResonance.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1666112546925804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546925813, "dur":5134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/FMODUnityResonance.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1666112546931112, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/FMODUnityResonance.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546931502, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546931509, "dur":4211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/FMODUnityResonance.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546935903, "dur":673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/FMODUnity.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546936579, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546936585, "dur":4659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/FMODUnity.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546941408, "dur":615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546942026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112546942035, "dur":41893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666112546984090, "dur":17665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Plugins/x86/lib_burst_generated.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1666112547001760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112547002998, "dur":96706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Plugins/x86/lib_burst_generated.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1666112547099873, "dur":557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1666112547100433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112547101011, "dur":2397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1666112547103560, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666112547103724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112547103730, "dur":9077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666112547133719, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666112547133972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112547133979, "dur":16464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666112547150613, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666112547150789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112547150796, "dur":8098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666112547159078, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1666112547159273, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112547159279, "dur":12400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1666112547171846, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666112547172045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112547172057, "dur":2951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666112547175229, "dur":597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1666112547175830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112547175837, "dur":9203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1666112547185219, "dur":4967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1666112547190194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112547190204, "dur":22284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1666112547212653, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666112547212817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112547212965, "dur":8325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1666112547221455, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666112547221617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112547221623, "dur":28224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1666112547250280, "dur":491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level9" }}
+,{ "pid":12345, "tid":3, "ts":1666112547250775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112547250782, "dur":6857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level9" }}
+,{ "pid":12345, "tid":3, "ts":1666112547257891, "dur":1187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level8" }}
+,{ "pid":12345, "tid":3, "ts":1666112547259082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112547259112, "dur":14227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level8" }}
+,{ "pid":12345, "tid":3, "ts":1666112547273519, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level7" }}
+,{ "pid":12345, "tid":3, "ts":1666112547273679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112547273688, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level7" }}
+,{ "pid":12345, "tid":3, "ts":1666112547276353, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level6" }}
+,{ "pid":12345, "tid":3, "ts":1666112547276506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112547276512, "dur":4009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level6" }}
+,{ "pid":12345, "tid":3, "ts":1666112547280677, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1666112547280829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112547280835, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1666112547283092, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1666112547283248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112547283255, "dur":3435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1666112547286856, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1666112547287012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112547287018, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1666112547289419, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level10" }}
+,{ "pid":12345, "tid":3, "ts":1666112547289583, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112547289588, "dur":37039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/level10" }}
+,{ "pid":12345, "tid":3, "ts":1666112547326786, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1666112547327154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666112547327159, "dur":5273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1666112547332601, "dur":26693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112545483115, "dur":334, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112545483449, "dur":20466, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112545503924, "dur":14110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1666112545518040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112545519101, "dur":4123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1666112545523429, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1666112545523737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112545523746, "dur":14345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1666112545538328, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1666112545538783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112545541436, "dur":5455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1666112545547115, "dur":12057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1666112545559478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112545559488, "dur":5914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1666112545565600, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1666112545565919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112545566189, "dur":94975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1666112545661379, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1666112545661687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112545661698, "dur":614913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1666112546276817, "dur":621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546279402, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546280075, "dur":2428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546282670, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546283087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546283325, "dur":2571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546286063, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546286477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546286484, "dur":2552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546289200, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546289625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546289632, "dur":10636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546300432, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546300897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546300903, "dur":2449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546303589, "dur":459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546304050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546304056, "dur":3218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546307439, "dur":446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546307887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546307892, "dur":2384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546310449, "dur":598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546311050, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546311055, "dur":6444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546317746, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546318169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546318179, "dur":2603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546320954, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546321366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546321373, "dur":2567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546324105, "dur":25129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546349240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546349248, "dur":53892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546403326, "dur":833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546404165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546404176, "dur":13573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546417912, "dur":431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546418346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546418353, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546421223, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546421683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546421692, "dur":2710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546424617, "dur":658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546425279, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546425286, "dur":10359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546435813, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546436224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546436232, "dur":2742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546439137, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546439580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546439587, "dur":2719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546442479, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546442890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546442897, "dur":5568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546448638, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546449068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546449075, "dur":2599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546451841, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546452240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546452247, "dur":2459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546454912, "dur":473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546455390, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546455399, "dur":2711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546458294, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546458712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546458719, "dur":26854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546485739, "dur":560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546486302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546486307, "dur":24572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546511196, "dur":571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546511770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546511778, "dur":4376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546516321, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546516723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546516731, "dur":49113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546566007, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546566426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546566433, "dur":20413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546586966, "dur":540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546587509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546587516, "dur":3472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546591175, "dur":607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.VectorGraphics.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666112546591785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546591792, "dur":5583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.VectorGraphics.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666112546597711, "dur":779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546598493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546598501, "dur":4048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546602718, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546603104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546603109, "dur":2857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546606148, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666112546606525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546606531, "dur":2685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666112546609397, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666112546609810, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546609816, "dur":4747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666112546614839, "dur":449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546615290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546615295, "dur":2623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546618084, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546618635, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546618639, "dur":2536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546621343, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546621674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546621680, "dur":2836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546624760, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546625154, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546625159, "dur":2735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546628089, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546628512, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546628519, "dur":2559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546631251, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666112546631658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546631665, "dur":2496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666112546634332, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546634724, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546634731, "dur":2395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546637292, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipelines.Universal.Shaders.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666112546637709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546637716, "dur":2657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipelines.Universal.Shaders.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666112546640570, "dur":856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipelines.Universal.Runtime.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666112546641430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546641438, "dur":2926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipelines.Universal.Runtime.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666112546644544, "dur":496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666112546645044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546645052, "dur":24524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1666112546669752, "dur":953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546670709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546670716, "dur":2823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546673763, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546674071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546674079, "dur":25583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546700000, "dur":1021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546701024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546701380, "dur":2448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546703989, "dur":53671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546757663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546757670, "dur":11336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546769168, "dur":448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546769700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546769709, "dur":2679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546772553, "dur":691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546773247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546773254, "dur":2455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546775897, "dur":1790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546777692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546777702, "dur":6609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546784473, "dur":584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546785060, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546785277, "dur":3136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546788575, "dur":508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546789086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546789091, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546791702, "dur":963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546792668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546792674, "dur":42743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546835652, "dur":431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546836087, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546836093, "dur":100518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112546936789, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/DOTween.dll.mdb" }}
+,{ "pid":12345, "tid":4, "ts":1666112546937196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112546937202, "dur":122124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Managed/DOTween.dll.mdb" }}
+,{ "pid":12345, "tid":4, "ts":1666112547059562, "dur":6028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Plugins/x86/resonanceaudio.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112547065595, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112547065605, "dur":34950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Plugins/x86/resonanceaudio.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666112547100804, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1666112547100989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112547101214, "dur":2878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1666112547104259, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666112547104429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112547104435, "dur":2855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666112547107546, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666112547107739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112547107751, "dur":3210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666112547111277, "dur":551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":4, "ts":1666112547111834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112547111844, "dur":3954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":4, "ts":1666112547134235, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666112547134413, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112547134417, "dur":62265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666112547196844, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/resources.resource" }}
+,{ "pid":12345, "tid":4, "ts":1666112547197027, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112547197033, "dur":129303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/resources.resource" }}
+,{ "pid":12345, "tid":4, "ts":1666112547326540, "dur":13402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1666112547339947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666112547339954, "dur":18954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Yoeri/Desktop/SYNCHRUSH Network Test1/SYNCHRUSH_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1666112547359069, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1666112547359073, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666112547373458, "dur":8236, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1666112547396661, "dur": 3831, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666112547395366, "dur": 5180, "ph": "X", "name": "Write chrome-trace events", "args": {} },
