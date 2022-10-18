@@ -9,7 +9,7 @@ Resources
     Adobe Illustrator
     Github
     
-![alt text]([http://url/to/img.png](https://yoeripvdb.github.io/YoeriPvdB_Portfolio/assets/images/synchrush-menu.gif))
+![alt text](https://yoeripvdb.github.io/YoeriPvdB_Portfolio/assets/images/synchrush-menu.gif)
 
 About the game
 
