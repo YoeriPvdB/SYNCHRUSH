@@ -8,6 +8,8 @@ Resources
     Adobe Photoshop
     Adobe Illustrator
     Github
+    
+![alt text]([http://url/to/img.png](https://yoeripvdb.github.io/YoeriPvdB_Portfolio/assets/images/synchrush-menu.gif))
 
 About the game
 
