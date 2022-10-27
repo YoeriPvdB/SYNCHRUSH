@@ -47,7 +47,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LobbyScene.unity
     guid: 02083fc2c8bbf4c47bcdb34742362ba7
-  - enabled: 1
-    path: Assets/Scenes/OnlineGameScene.unity
+  - enabled: 0
+    path: Assets/Scenes/CHLOnlineGameScene.unity
     guid: 9bc8baecf529f064f9e8b81a0404f660
+  - enabled: 1
+    path: Assets/Scenes/OnlineTandemModeScene.unity
+    guid: 0151cfad66cf18e4f88552def8b14fa9
   m_configObjects: {}

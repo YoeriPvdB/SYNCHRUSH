@@ -73,12 +73,15 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\ICinemachineComponent.cs" />
+    <Compile Include="Assets\Scripts\Network\NetworkController.cs" />
     <Compile Include="Assets\Scripts\RythmScript.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineVirtualCamera.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachinePipeline.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\ReflectionHelpers.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineHardLookAt.cs" />
+    <Compile Include="Assets\Scripts\Network\OnlinePlayerSwitch.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUI.cs" />
+    <Compile Include="Assets\Scripts\Network\OnlineTandemHandler.cs" />
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineTrack.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineMixingCamera.cs" />
@@ -98,9 +101,11 @@
     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineHardLockToTarget.cs" />
     <Compile Include="Assets\Scripts\T2DiscoObstacleScript.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineTargetGroup.cs" />
+    <Compile Include="Assets\Scripts\Network\QuickLobbyController.cs" />
     <Compile Include="Assets\Scripts\ShakeyCam.cs" />
     <Compile Include="Assets\Scripts\UIScript.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachinePOV.cs" />
+    <Compile Include="Assets\Scripts\OnlineObstacles.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\GaussianFilter.cs" />
     <Compile Include="Assets\Scripts\AudioScript.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineComposer.cs" />
@@ -111,6 +116,7 @@
     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachinePath.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\ICinemachineCamera.cs" />
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
+    <Compile Include="Assets\Scripts\Network\RoomController.cs" />
     <Compile Include="Assets\Scripts\Old\Projectile.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
     <Compile Include="Assets\Scripts\BlastScript.cs" />
@@ -135,9 +141,11 @@
     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineClearShot.cs" />
     <Compile Include="Assets\Scripts\VersusCheckScript.cs" />
     <Compile Include="Assets\Scripts\MenuMove.cs" />
+    <Compile Include="Assets\Scripts\Network\OnlineInputScript.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachinePropertyAttribute.cs" />
     <Compile Include="Assets\Scripts\ShockColScript.cs" />
     <Compile Include="Assets\Scripts\PowerUp.cs" />
+    <Compile Include="Assets\Scripts\Network\OnlineMovementScript.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineExtension.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineSmoother.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineVirtualCameraBase.cs" />
@@ -151,6 +159,7 @@
     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineTrackedDolly.cs" />
     <Compile Include="Assets\Scripts\InputScript.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+    <Compile Include="Assets\Scripts\Network\LobbyController.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineStateDrivenCamera.cs" />
     <Compile Include="Assets\Scripts\VSCamScript.cs" />
@@ -159,16 +168,18 @@
     <Compile Include="Assets\Scripts\DiscoModeScript.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
     <Compile Include="Assets\Cinemachine\PostFX\CinemachinePostFX.cs" />
+    <Compile Include="Assets\Scripts\Network\OnlineBlastScript.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineBasicMultiChannelPerlin.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineFollowZoom.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUtils.cs" />
     <Compile Include="Assets\Scripts\BGScript.cs" />
     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineCore.cs" />
-    <Compile Include="Assets\Scripts\Network\RoomController.cs" />
-    <Compile Include="Assets\Scripts\Network\LobbyController.cs" />
-    <Compile Include="Assets\Scripts\Network\NetworkController.cs" />
-    <Compile Include="Assets\Scripts\Network\QuickLobbyController.cs" />
+    <Compile Include="Assets\Scripts\Network\OnlineInstantiate.cs" />
+    <Compile Include="Assets\Scripts\Network\OnlinePowerUp.cs" />
+    <Compile Include="Assets\Scripts\Network\OnlineUIScript.cs" />
+    <Compile Include="Assets\Scripts\Network\OnlineModeSwitchScript.cs" />
+    <Compile Include="Assets\Scripts\Network\OnlineMenuScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -958,21 +969,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="PhotonChat.csproj">
+      <Project>{73D7EC3E-C209-F984-6E29-189F790DB248}</Project>
+      <Name>PhotonChat</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
+      <Project>{055544C8-6FF8-CB4F-2260-360D7B13704E}</Project>
+      <Name>PhotonUnityNetworking.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
+      <Project>{21BA5285-B4F1-0B7E-AC8A-A2D2EC8A82D1}</Project>
+      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="FMODUnityResonanceEditor.csproj">
       <Project>{2D2021DD-B066-C898-3839-1776A6E9913C}</Project>
       <Name>FMODUnityResonanceEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="FMODUnityEditor.csproj">
-      <Project>{634E5BC7-70FB-93F2-A4D9-A2AD58448AA4}</Project>
-      <Name>FMODUnityEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="FMODUnity.csproj">
-      <Project>{2E52E27E-428C-4EF4-97BE-31377F703DD8}</Project>
-      <Name>FMODUnity</Name>
-    </ProjectReference>
-    <ProjectReference Include="FMODUnityResonance.csproj">
-      <Project>{A7C222E9-9999-A460-846A-B71C137AE3E3}</Project>
-      <Name>FMODUnityResonance</Name>
+    <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
+      <Project>{258E6924-1F30-4185-1417-488FC03AAEAB}</Project>
+      <Name>PunDemos.DemoHubEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
       <Project>{BF05E57A-DC5A-B231-0EF5-814FE2037DF0}</Project>
@@ -986,6 +1001,10 @@
       <Project>{42BB8ABC-17F6-AB7E-DB83-F248D5718616}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="PhotonRealtime.csproj">
+      <Project>{17BEBCC1-B355-C010-9F02-108ADB3153DA}</Project>
+      <Name>PhotonRealtime</Name>
+    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
       <Project>{BCB02ECC-DD23-5236-BBE0-1703BADC79DF}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
@@ -994,25 +1013,17 @@
       <Project>{43E5FDBB-970E-5EBB-E681-CE07EA94554C}</Project>
       <Name>PhotonUnityNetworking.Demos</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonChat.csproj">
-      <Project>{73D7EC3E-C209-F984-6E29-189F790DB248}</Project>
-      <Name>PhotonChat</Name>
+    <ProjectReference Include="FMODUnityEditor.csproj">
+      <Project>{634E5BC7-70FB-93F2-A4D9-A2AD58448AA4}</Project>
+      <Name>FMODUnityEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
-      <Project>{21BA5285-B4F1-0B7E-AC8A-A2D2EC8A82D1}</Project>
-      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
+    <ProjectReference Include="FMODUnity.csproj">
+      <Project>{2E52E27E-428C-4EF4-97BE-31377F703DD8}</Project>
+      <Name>FMODUnity</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{055544C8-6FF8-CB4F-2260-360D7B13704E}</Project>
-      <Name>PhotonUnityNetworking.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
-      <Project>{258E6924-1F30-4185-1417-488FC03AAEAB}</Project>
-      <Name>PunDemos.DemoHubEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{17BEBCC1-B355-C010-9F02-108ADB3153DA}</Project>
-      <Name>PhotonRealtime</Name>
+    <ProjectReference Include="FMODUnityResonance.csproj">
+      <Project>{A7C222E9-9999-A460-846A-B71C137AE3E3}</Project>
+      <Name>FMODUnityResonance</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
